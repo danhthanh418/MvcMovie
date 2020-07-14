@@ -26,9 +26,11 @@ D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.RazorAssemblyInfo.
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.TagHelpers.input.cache
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.TagHelpers.output.cache
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.RazorCoreGenerate.cache
-D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\HelloWorld\Index.cshtml.g.cs
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.RazorTargetAssemblyInfo.cs
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.Views.pdb
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.csproj.CopyComplete
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
