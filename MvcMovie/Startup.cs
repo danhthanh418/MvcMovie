@@ -44,6 +44,7 @@ namespace MvcMovie
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(name: "movies", pattern: "{controller=Movies}/{action=Index}");
                 endpoints.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(name: "admin", pattern: "{controller=Admin}/{action=Index}");
             });
