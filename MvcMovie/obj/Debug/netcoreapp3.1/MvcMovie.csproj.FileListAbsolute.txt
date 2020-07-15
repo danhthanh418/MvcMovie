@@ -183,3 +183,8 @@ D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.genruntimeconfig.c
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.csprojAssemblyReference.cache
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.csproj.CoreCompileInputs.cache
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\MvcMovieApi.exe
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\MvcMovieApi.dll
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\MvcMovieApi.pdb
+D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.MvcApplicationPartsAssemblyInfo.cs

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lV7oG7ydg/g1JPXAzLadXEblYr4/KVLQPvZB7kUjmaZI0K3kQ14GehEoQ8S+TgpRLeFCU2G2pfOoBXRVyVXf7g==",
+  "dgSpecHash": "s8uUkEB/UyRldjh2kkSfGPdc3xIoyUAJt7vTL6X8W1XkvR6ASiIUXS2F/F2c6kskydM84BsZ61dgzddQu9X5XQ==",
   "success": true,
   "projectFilePath": "D:\\Project\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.5\\microsoft.entityframeworkcore.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.5\\microsoft.entityframeworkcore.analyzers.3.1.5.nupkg.sha512",
     "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.5\\microsoft.entityframeworkcore.design.3.1.5.nupkg.sha512",
+    "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.5\\microsoft.entityframeworkcore.inmemory.3.1.5.nupkg.sha512",
     "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.5\\microsoft.entityframeworkcore.relational.3.1.5.nupkg.sha512",
     "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\3.1.5\\microsoft.entityframeworkcore.sqlite.3.1.5.nupkg.sha512",
     "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.5\\microsoft.entityframeworkcore.sqlite.core.3.1.5.nupkg.sha512",
