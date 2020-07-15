@@ -6,17 +6,20 @@
 
 <h1>Movies index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-
 <form asp-controller="Movies" asp-action="Index" method="get">
     <p>
-        <select asp-for="MovieGenre" asp-items="Model.Genres">
+        <select asp-for="MovieGenre" asp-items="@Model.Genres">
             <option value="">All</option>
         </select>
-        Title: <input type="text" name="SearchString">
-        <input type="submit" value="Filter" />
+        <div class="input-group mb-3">
+            <div class="input-group-append">
+                <input type="text" class="btn btn-info" value="Tiêu đề: " disabled>
+            </div>
+            <input type="text" name="SearchString" class="form-control w-50">
+            <div class="input-group-append">
+                    <input type="submit" class="btn btn-outline-info" value="Lọc">
+            </div>
+        </div>
     </p>
 </form>
 <table class="table">
@@ -54,10 +57,12 @@
                     @Html.DisplayFor(modelItem => item.Price)
                 </td>
                 <td>
-                    <a href="/Movies/Edit/@item.Id" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a href="/Movies/Details/@item.Id" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a href="/Movies/Delete/@item.Id" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-
+                    @*<a href="/Movies/Edit/@item.Id" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a href="/Movies/Details/@item.Id" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a href="/Movies/Delete/@item.Id" asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                    <a type="button" class="btn btn-success" href="/Movies/Edit/@item.Id">Cập nhật</a>
+                    <a type="button" class="btn btn-primary" href="/Movies/Details/@item.Id">Chi tiết</a>
+                    <a type="button" class="btn btn-danger" href="/Movies/Delete/@item.Id">Xoá</a>
                 </td>
             </tr>
         }

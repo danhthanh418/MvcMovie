@@ -15,6 +15,11 @@
       "provider": "cdnjs",
       "library": "popper.js@2.4.4",
       "destination": "wwwroot/lib/popper.js/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "font-awesome@5.13.1",
+      "destination": "wwwroot/lib/font-awesome/"
     }
   ]
 }

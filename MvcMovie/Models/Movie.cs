@@ -15,10 +15,12 @@ namespace MvcMovie.Models
 
         [Display(Name ="Ngày p.hành")]
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime ReleaseDate { get; set; }
         [Display(Name = "Thể loại")]
         public string Genre { get; set; }
-        [Column(TypeName = "decimal(18, 2)")]
+        [Column(TypeName = "decimal(18,0)")]
+        [DisplayFormat(DataFormatString = "{0:#}")]
         [Display(Name = "Giá vé")]
         public decimal Price { get; set; }
     }
