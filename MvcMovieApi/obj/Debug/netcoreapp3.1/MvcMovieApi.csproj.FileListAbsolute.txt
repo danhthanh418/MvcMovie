@@ -145,3 +145,9 @@ D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysi
 D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\SharpCompress.dll
