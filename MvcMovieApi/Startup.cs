@@ -35,6 +35,7 @@ namespace MvcMovieApi
             //    Configuration.GetSection(nameof(MoviesDatabaseSettings)));
             //services.AddSingleton<IMoviesDatabaseSettings>(mds => mds.GetRequiredService<IOptions<MoviesDatabaseSettings>>().Value);
             services.AddControllers();
+            services.AddSwaggerDocument();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +47,8 @@ namespace MvcMovieApi
             }
 
             app.UseHttpsRedirection();
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseRouting();
 
