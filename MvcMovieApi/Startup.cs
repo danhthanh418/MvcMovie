@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using MvcMovieApi.Models;
 
 namespace MvcMovieApi
@@ -27,9 +28,12 @@ namespace MvcMovieApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string connection = Configuration.GetConnectionString("MovieDatabase");
+            //string connection = Configuration.GetConnectionString("MovieDatabase");
             services.AddDbContext<MovieContext>(opt =>
             opt.UseInMemoryDatabase("MovieList"));
+            //services.Configure<MoviesDatabaseSettings>(
+            //    Configuration.GetSection(nameof(MoviesDatabaseSettings)));
+            //services.AddSingleton<IMoviesDatabaseSettings>(mds => mds.GetRequiredService<IOptions<MoviesDatabaseSettings>>().Value);
             services.AddControllers();
         }
 
