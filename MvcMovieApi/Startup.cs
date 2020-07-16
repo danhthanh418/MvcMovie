@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MvcMovieApi.Models;
+using MvcMovieApi.Services;
 
 namespace MvcMovieApi
 {
@@ -28,12 +29,11 @@ namespace MvcMovieApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //string connection = Configuration.GetConnectionString("MovieDatabase");
-            services.AddDbContext<MovieContext>(opt =>
-            opt.UseInMemoryDatabase("MovieList"));
-            //services.Configure<MoviesDatabaseSettings>(
-            //    Configuration.GetSection(nameof(MoviesDatabaseSettings)));
-            //services.AddSingleton<IMoviesDatabaseSettings>(mds => mds.GetRequiredService<IOptions<MoviesDatabaseSettings>>().Value);
+            services.AddDbContext<MovieContext>();
+            services.Configure<MoviesDatabaseSettings>(
+                Configuration.GetSection(nameof(MoviesDatabaseSettings)));
+            services.AddSingleton<IMoviesDatabaseSettings>(options => options.GetRequiredService<IOptions<MoviesDatabaseSettings>>().Value);
+            services.AddSingleton<MovieService>();
             services.AddControllers();
             services.AddSwaggerDocument();
         }
@@ -47,12 +47,13 @@ namespace MvcMovieApi
             }
 
             app.UseHttpsRedirection();
+
             app.UseOpenApi();
             app.UseSwaggerUi3();
 
             app.UseRouting();
-
             app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
