@@ -153,6 +153,9 @@ D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstan
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csprojAssemblyReference.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.AssemblyInfoInputs.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.AssemblyInfo.cs
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csproj.CoreCompileInputs.cache
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.RazorTargetAssemblyInfo.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csproj.CopyComplete
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\staticwebassets\MvcMovieApi.StaticWebAssets.Manifest.cache
@@ -160,3 +163,17 @@ D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\staticwebassets\MvcMovie
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.dll
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.pdb
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.genruntimeconfig.cache
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.RazorAssemblyInfo.cache
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.RazorAssemblyInfo.cs
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\libman.json
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\lib\bootstrap\package.json
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\MvcMovieApi.Views.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\MvcMovieApi.Views.pdb
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.TagHelpers.input.cache
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.TagHelpers.output.cache
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.RazorCoreGenerate.cache
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.RazorTargetAssemblyInfo.cs
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.Views.pdb
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Index.cshtml.g.cs

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MvcMovieApi.Models
 {
-    public class MovieItem
+    public class Movie
     {
         public int Id { get; set; }
         [Display(Name = "Tiêu đề")]

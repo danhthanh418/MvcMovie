@@ -26,14 +26,14 @@ namespace MvcMovieApi.Controllers
 
         // GET: api/Movies
         [HttpGet]
-        public ActionResult<List<MovieItem>> Get()
+        public ActionResult<List<Movie>> Get()
         {
             return _movieService.Get();
         }
 
         // GET: api/Movies/5
         [HttpGet("{id}")]
-        public ActionResult<MovieItem> GetMovieItem(int id)
+        public ActionResult<Movie> GetMovieItem(int? id)
         {
             var movieItem = _movieService.Get(id);
 
@@ -49,7 +49,7 @@ namespace MvcMovieApi.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public bool PutMovieItem(int id, MovieItem movieItem)
+        public bool PutMovieItem(int id, Movie movieItem)
         {
             return _movieService.Update(id, movieItem);
         }
@@ -58,7 +58,7 @@ namespace MvcMovieApi.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public ActionResult<MovieItem> PostMovieItem(MovieItem movieItem)
+        public ActionResult<Movie> PostMovieItem(Movie movieItem)
         {
             _movieService.Create(movieItem);
             return CreatedAtAction(nameof(GetMovieItem), new { id = movieItem.Id }, movieItem);
@@ -72,7 +72,7 @@ namespace MvcMovieApi.Controllers
             _movieService.Delete(movieItem);
         }
 
-        private bool MovieItemExists(int Id)
+        private bool MovieItemExists(int? Id)
         {
             return _movieService.Find(Id) != null;
         }

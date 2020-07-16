@@ -408,3 +408,7 @@ D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\staticwebassets\MvcMovie.St
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.dll
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.pdb
 D:\Project\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.genruntimeconfig.cache
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\MvcMovieApi.Views.dll
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\MvcMovieApi.Views.pdb
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\lib\bootstrap\package.json
+D:\Project\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.1\MvcMovie.StaticWebAssets.xml

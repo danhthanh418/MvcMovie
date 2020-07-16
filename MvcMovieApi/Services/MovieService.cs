@@ -9,7 +9,7 @@ namespace MvcMovieApi.Services
 {
     public class MovieService
     {
-        private readonly IMongoCollection<MovieItem> _movies;
+        private readonly IMongoCollection<Movie> _movies;
         public MovieService(IMoviesDatabaseSettings settings)
         {
            if(settings.ConnectionString!=null)
@@ -17,22 +17,22 @@ namespace MvcMovieApi.Services
                 var client = new MongoClient(settings.ConnectionString);
                 var database = client.GetDatabase(settings.DatabaseName);
 
-                _movies = database.GetCollection<MovieItem>(settings.MoviesCollectionName);
+                _movies = database.GetCollection<Movie>(settings.MoviesCollectionName);
             }
         }
 
-        public List<MovieItem> Get() => _movies.Find(book => true).ToList();
+        public List<Movie> Get() => _movies.Find(book => true).ToList();
 
-        public MovieItem Get(int Id) =>
-            _movies.Find<MovieItem>(movie => movie.Id == Id).FirstOrDefault();
+        public Movie Get(int? Id) =>
+            _movies.Find<Movie>(movie => movie.Id == Id).FirstOrDefault();
 
-        public MovieItem Create(MovieItem movieItem)
+        public Movie Create(Movie movieItem)
         {
             _movies.InsertOne(movieItem);
             return movieItem;
         }
 
-        public bool Update(int Id, MovieItem movieIn)
+        public bool Update(int Id, Movie movieIn)
         {
             try
             {
@@ -51,12 +51,12 @@ namespace MvcMovieApi.Services
            _movies.DeleteOne(movie => movie.Id == Id);
         }
 
-        public void Delete(MovieItem movieItem)
+        public void Delete(Movie movieItem)
         {
             _movies.DeleteOne(movie => movie.Id == movieItem.Id);
         }
 
-        public MovieItem Find(int Id)
+        public Movie Find(int? Id)
         {
             return _movies.Find(movie => movie.Id == Id).FirstOrDefault();
         }

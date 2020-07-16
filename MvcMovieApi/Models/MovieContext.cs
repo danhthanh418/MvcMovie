@@ -13,6 +13,6 @@ namespace MvcMovieApi.Models
 
         }
 
-        public DbSet<MovieItem> MovieItems { get; set; }
+        public DbSet<Movie> MovieItems { get; set; }
     }
 }
