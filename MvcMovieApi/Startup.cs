@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MvcMovieApi.Models;
+using MvcMovieApi.Services;
 
 namespace MvcMovieApi
 {
@@ -29,11 +30,12 @@ namespace MvcMovieApi
         public void ConfigureServices(IServiceCollection services)
         {
             //string connection = Configuration.GetConnectionString("MovieDatabase");
-            services.AddDbContext<MovieContext>(opt =>
-            opt.UseInMemoryDatabase("MovieList"));
-            //services.Configure<MoviesDatabaseSettings>(
-            //    Configuration.GetSection(nameof(MoviesDatabaseSettings)));
-            //services.AddSingleton<IMoviesDatabaseSettings>(mds => mds.GetRequiredService<IOptions<MoviesDatabaseSettings>>().Value);
+            //services.AddDbContext<MovieContext>(opt =>
+            //opt.UseInMemoryDatabase("MovieList"));
+            services.Configure<MoviesDatabaseSettings>(
+                Configuration.GetSection(nameof(MoviesDatabaseSettings)));
+            services.AddSingleton<IMoviesDatabaseSettings>(options => options.GetRequiredService<IOptions<MoviesDatabaseSettings>>().Value);
+            services.AddSingleton<MovieService>();
             services.AddControllers();
             services.AddSwaggerDocument();
         }
