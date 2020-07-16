@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {}
+    "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {
+    "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
+        "projectUniqueName": "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
         "projectName": "MvcMovieApi",
-        "projectPath": "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
+        "projectPath": "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
         "packagesPath": "C:\\Users\\Thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\MvcMovie\\MvcMovieApi\\obj\\",
+        "outputPath": "D:\\Project\\MvcMovie\\MvcMovieApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,10 +38,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -79,6 +75,10 @@
             "System.Linq": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "knockoutjs": {
+              "target": "Package",
+              "version": "[3.5.1, )"
             }
           },
           "imports": [
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

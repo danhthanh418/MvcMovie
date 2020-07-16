@@ -29,9 +29,7 @@ namespace MvcMovieApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //string connection = Configuration.GetConnectionString("MovieDatabase");
-            //services.AddDbContext<MovieContext>(opt =>
-            //opt.UseInMemoryDatabase("MovieList"));
+            services.AddDbContext<MovieContext>();
             services.Configure<MoviesDatabaseSettings>(
                 Configuration.GetSection(nameof(MoviesDatabaseSettings)));
             services.AddSingleton<IMoviesDatabaseSettings>(options => options.GetRequiredService<IOptions<MoviesDatabaseSettings>>().Value);

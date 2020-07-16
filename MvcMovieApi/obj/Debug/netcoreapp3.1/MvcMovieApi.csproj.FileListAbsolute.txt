@@ -150,6 +150,7 @@ D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\
 D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csprojAssemblyReference.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.AssemblyInfoInputs.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.AssemblyInfo.cs
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.RazorTargetAssemblyInfo.cache
@@ -159,10 +160,3 @@ D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\staticwebassets\MvcMovie
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.dll
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.pdb
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.genruntimeconfig.cache
-D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csprojAssemblyReference.cache
-D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
-D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csproj.CoreCompileInputs.cache
-D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.MvcApplicationPartsAssemblyInfo.cs
-D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.MvcApplicationPartsAssemblyInfo.cache
