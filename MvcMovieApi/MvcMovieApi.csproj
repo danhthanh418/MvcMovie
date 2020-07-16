@@ -19,10 +19,5 @@
     <PackageReference Include="System.Linq" Version="4.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
 
 </Project>
