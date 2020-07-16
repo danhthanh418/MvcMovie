@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
+    "D:\\Projects\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {
+    "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
+        "projectUniqueName": "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
         "projectName": "MvcMovieApi",
-        "projectPath": "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
+        "projectPath": "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj",
         "packagesPath": "C:\\Users\\Thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\MvcMovie\\MvcMovieApi\\obj\\",
+        "outputPath": "D:\\Projects\\MvcMovie\\MvcMovieApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,18 +99,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
+    "D:\\Projects\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "D:\\Projects\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "D:\\Project\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "D:\\Projects\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\Thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\MvcMovie\\MvcMovie\\obj\\",
+        "outputPath": "D:\\Projects\\MvcMovie\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,8 +126,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {
-                "projectPath": "D:\\Project\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj"
+              "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj": {
+                "projectPath": "D:\\Projects\\MvcMovie\\MvcMovieApi\\MvcMovieApi.csproj"
               }
             }
           }
@@ -190,7 +190,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
