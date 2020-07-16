@@ -32,14 +32,23 @@ namespace MvcMovieApi.Services
             return movieItem;
         }
 
-        public void Update(int Id, MovieItem movieIn)
+        public bool Update(int Id, MovieItem movieIn)
         {
-            _movies.ReplaceOne(movie => movie.Id == Id, movieIn);
+            try
+            {
+                _movies.ReplaceOne(movie => movie.Id == Id, movieIn);
+                return true;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
         }
 
         public void Delete(int Id)
         {
-            _movies.DeleteOne(movie => movie.Id == Id);
+           _movies.DeleteOne(movie => movie.Id == Id);
         }
 
         public void Delete(MovieItem movieItem)
@@ -49,7 +58,7 @@ namespace MvcMovieApi.Services
 
         public MovieItem Find(int Id)
         {
-            return (MovieItem) _movies.Find(movie => movie.Id == Id);
+            return _movies.Find(movie => movie.Id == Id).FirstOrDefault();
         }
     } 
 }

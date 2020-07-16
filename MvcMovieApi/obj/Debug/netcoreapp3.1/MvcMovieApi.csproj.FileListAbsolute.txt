@@ -160,6 +160,9 @@ D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.dll
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.pdb
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.genruntimeconfig.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csprojAssemblyReference.cache
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+D:\Project\MvcMovie\MvcMovieApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.csproj.CoreCompileInputs.cache
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.MvcApplicationPartsAssemblyInfo.cs
 D:\Project\MvcMovie\MvcMovieApi\obj\Debug\netcoreapp3.1\MvcMovieApi.MvcApplicationPartsAssemblyInfo.cache
